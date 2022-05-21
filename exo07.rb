@@ -9,6 +9,7 @@ def argument
 	else
 		taille
 	end
+	
 end
 
 def taille
