@@ -1,5 +1,7 @@
 def argument 
+	
 	saisie = /\A[-+]?\d+\z/
+
 	if(ARGV.length != 2)
 		puts "mettez 2 arguments"
 	elsif(ARGV[0].match?(saisie) == false || ARGV[1].match?(saisie) == false)
