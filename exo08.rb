@@ -6,6 +6,8 @@ def argument
 		puts "error"
 	elsif(ARGV[0].match?(saisie) == false || ARGV[1].match?(saisie)== false)
 		puts "error"
+	elsif( ARGV[1].to_i < 0)
+		puts "error"
 	else
 		puissance
 	end
